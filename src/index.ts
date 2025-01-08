@@ -52,7 +52,7 @@ async function main() {
 
     const prompt = `
       Here are the files in my directory: ${JSON.stringify(contents, null, 2)}.
-      Please suggest how I can organize these files. A 'folders' array where each folder is represented as an object. Each folder object should have A name property for the folder's name, and a files array, where each file is an object with the file name as the value of a name property. Do not include any additional information, comments, or explanation. Only output the JSON structure.`;
+      Please suggest how I can organize these files. A 'folders' array where each folder is represented as an objecsot. Each folder object should have A name property for the folder's name, and a files array, where each file is an object with the file name as the value of a name property. Do not include any additional information, comments, or explanation. Only output the JSON structure.`;
 
     const response = await openAI.sendMessage(prompt);
 
