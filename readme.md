@@ -1,0 +1,2 @@
+-- Install 'folderize' keyword globally
+-- export your api key
